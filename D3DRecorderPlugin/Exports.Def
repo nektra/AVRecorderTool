@@ -1,0 +1,6 @@
+EXPORTS
+  OnLoad         @1
+  OnUnload       @2
+  OnHookAdded    @3
+  OnHookRemoved  @4
+  OnFunctionCall @5

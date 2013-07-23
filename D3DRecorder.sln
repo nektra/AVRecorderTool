@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3DRecorder", "D3DRecorder\D3DRecorder.vcxproj", "{CB1F9258-7424-4797-9A61-5AF2825262A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6} = {340CB5F8-A80B-47A1-90D9-EC1700963CB6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3DRecorderPlugin", "D3DRecorderPlugin\D3DRecorderPlugin.vcxproj", "{340CB5F8-A80B-47A1-90D9-EC1700963CB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Debug|Win32.Build.0 = Debug|Win32
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Debug|x64.ActiveCfg = Debug|x64
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Debug|x64.Build.0 = Debug|x64
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Release|Win32.ActiveCfg = Release|Win32
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Release|Win32.Build.0 = Release|Win32
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Release|x64.ActiveCfg = Release|x64
+		{CB1F9258-7424-4797-9A61-5AF2825262A2}.Release|x64.Build.0 = Release|x64
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Debug|Win32.Build.0 = Debug|Win32
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Debug|x64.ActiveCfg = Debug|x64
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Debug|x64.Build.0 = Debug|x64
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Release|Win32.ActiveCfg = Release|Win32
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Release|Win32.Build.0 = Release|Win32
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Release|x64.ActiveCfg = Release|x64
+		{340CB5F8-A80B-47A1-90D9-EC1700963CB6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
