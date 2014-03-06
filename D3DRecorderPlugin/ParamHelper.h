@@ -2,9 +2,11 @@
 #include "stdafx.h"
 
 #ifdef _M_IX86
+#define SIZETVAL unsigned long
 #define REGSIZE long
 #define DEVIAREPTR long
 #elif defined _M_X64
+#define SIZETVAL unsigned long long
 #define REGSIZE __int64
 #define DEVIAREPTR __int64
 #endif

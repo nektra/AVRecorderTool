@@ -23,9 +23,9 @@ BOOL CHookEngine::LoadLicenseKey(char** ppLicenseBuf)
 	try
 	{		
 		CFile licenseFile(L"license.txt", CFile::modeRead);
-		const size_t cch = licenseFile.GetLength();
+		const ULONGLONG cch = licenseFile.GetLength();
 
-		*ppLicenseBuf = new char[cch+1];
+		*ppLicenseBuf = new char[(UINT)cch+1];
 
 		licenseFile.Read(*ppLicenseBuf, (UINT)cch+1);
 		return TRUE;

@@ -64,7 +64,7 @@ HANDLE GetHandleParam(INktHookCallInfoPlugin* lpHookCallInfoPlugin, int idx)
 	INktParamPtr pp;
 	params->GetAt(idx, &pp);
 
-	size_t ret;
+	SIZETVAL ret;
 	pp->get_SizeTVal(&ret);
 
 	return (HANDLE) ret;
@@ -78,7 +78,7 @@ void* GetPointerParam(INktHookCallInfoPlugin* lpHookCallInfoPlugin, int idx)
 	INktParamPtr pp;
 	params->GetAt(idx, &pp);
 
-	long long ret;
+	DEVIAREPTR ret;
 	pp->get_PointerVal(&ret);
 
 	return (void*) ret;
